@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+}
+
+
+
+.nav-box {
+    height: 48px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0,0.6);
+    font-size: 1.2rem;
+}
+
+.nav-box p {
+    color: white;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-left: 3px;
+    padding-top: px;
+    text-decoration: underline;
+}
+.nav-box p:hover{
+    color: rgba(255,255,255,0.8);
+}
+.nav-box i{
+    color: white;
+    display: inline-block;
+    margin-left: 94%;
+    margin-top: 13px;
+    
+}
+.signin-header h1{
+    font-size: 3rem;
+    color: white;
+    height: 6.5vh;
+    font-family: "Raleway", sans-serif
+}
+
+.signin-header p{
+    color: white;
+    font-size: 1.15rem;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    padding-left: 4px;
+    
+}
+
+.inner-box {
+    width: 400px;
+    height: 65vh;
+    margin: 0 auto;
+    border: 2px solid #dad7cd;
+    border-radius: 5%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 50px 40px 30px 40px;
+    /* background-color: rgba(13, 27, 42, 0.25); */
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 25px 5px #0a0908;
+
+}
+
+.signup-body {
+    margin: 20px 0;
+}
+
+.signup-body p {
+    margin: 10px 0;
+}
+
+
+
+label {
+    display: block;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+
+.signup-body input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #dad7cd;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    /* background-color: #0b090a27; */
+    background: rgba(0,0,0,0.4);
+    color: white;
+    border-width: 0 0 0;
+    /* margin-left: auto;
+    margin-right: auto ; */
+    
+}
+
+.signup-body input::placeholder{
+    color: #ccc5b9;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.signup-body input[type="submit"] {
+    background-color: #ffcb69;
+    color: #0b090a;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 550;
+    font-family: "Poppins", sans-serif;
+    padding: 8px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup-body input[type="submit"]:hover {
+    background-color: #ffb703;
+    
+}
+
+.signin-footer p {
+    position: relative;
+    color: white;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.signin-footer p a{
+    color: rgb(255, 183, 3);
+}
+
+.signin-footer p a:hover{
+    color: #ffcb69;
+}
+
+.outer-box{
+    width: 100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(../Images/cafe\ final.jpg);
+}
+
+.outer-box::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.1);
+}
